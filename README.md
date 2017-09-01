@@ -1,12 +1,12 @@
 # ExceptionRunner
 ---
 
-##About
+## About
 Exception Runner is a usefull form to treat the exceptions **without** the conventional and nasty **try catch**. 
 
 
 
-##Examples of code
+## Examples of code
 
 ```Java
   public void method(parameter) thrown Exception{
@@ -21,7 +21,7 @@ Exception Runner is a usefull form to treat the exceptions **without** the conve
   
   }
 ```
-##Convetional way
+## Convetional way
 
 ```Java
   try{
@@ -60,7 +60,7 @@ Exception Runner is a usefull form to treat the exceptions **without** the conve
 
 If you only use once it is not so uncomfortable, but what happen when you need a lot? It will not be easy see the code through the try-catches. Now me solution...
 
-##With Exception Runner
+## With Exception Runner
 
 ```Java
   runSafe(()-> method(parameter));
